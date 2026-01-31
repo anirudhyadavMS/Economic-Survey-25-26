@@ -1,0 +1,46 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Node modules (if any)
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Data files (PDFs, JSON extracts)
+*.pdf
+pdf_content.json
+chapter_details.json
+chapter_full_content.json
+
+# Backup files
+*.bak
+*.backup
