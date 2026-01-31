@@ -506,69 +506,6 @@
                     margin-top: 2rem;
                 }
 
-                .content-section-item {
-                    background: #ffffff;
-                    border: 2px solid #e5e7eb;
-                    border-radius: 12px;
-                    margin-bottom: 1rem;
-                    overflow: hidden;
-                    transition: all 0.3s;
-                }
-
-                .content-section-item:hover {
-                    border-color: #cbd5e1;
-                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-                }
-
-                .section-header-clickable {
-                    padding: 1.25rem 1.5rem;
-                    cursor: pointer;
-                    background: linear-gradient(to right, #f9fafb, #ffffff);
-                    transition: background 0.2s;
-                }
-
-                .section-header-clickable:hover {
-                    background: linear-gradient(to right, #f3f4f6, #f9fafb);
-                }
-
-                .section-title-text {
-                    font-weight: 600;
-                    font-size: 1.05rem;
-                    color: #1f2937;
-                    line-height: 1.4;
-                }
-
-                .section-page-num {
-                    font-size: 0.875rem;
-                    color: #9ca3af;
-                    margin-top: 0.25rem;
-                }
-
-                .expand-icon {
-                    color: #2563eb;
-                    font-size: 0.875rem;
-                    transition: transform 0.3s;
-                    flex-shrink: 0;
-                    font-weight: bold;
-                }
-
-                .expand-icon.expanded {
-                    transform: rotate(90deg);
-                }
-
-                .section-content-box {
-                    max-height: 0;
-                    overflow: hidden;
-                    transition: max-height 0.4s ease-out;
-                    background: #ffffff;
-                }
-
-                .section-content-box.expanded {
-                    max-height: 10000px;
-                    padding: 1.5rem;
-                    border-top: 1px solid #e5e7eb;
-                }
-
                 .content-paragraph {
                     font-size: 1.05rem;
                     line-height: 1.9;
@@ -587,27 +524,7 @@
                         font-size: 1rem;
                         text-align: left;
                     }
-
-                    .section-header-clickable {
-                        padding: 1rem;
-                    }
-                }
             </style>
-
-            <script>
-                function toggleSection(id) {
-                    const content = document.getElementById('content-' + id);
-                    const icon = document.getElementById('icon-' + id);
-
-                    if (content.classList.contains('expanded')) {
-                        content.classList.remove('expanded');
-                        icon.classList.remove('expanded');
-                    } else {
-                        content.classList.add('expanded');
-                        icon.classList.add('expanded');
-                    }
-                }
-            </script>
 
 
         <!-- Additional chapters would follow same pattern -->
