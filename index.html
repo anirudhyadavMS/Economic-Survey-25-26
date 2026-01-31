@@ -401,7 +401,15 @@
                         </div>
 
 
-                        <div class="collapsible-section">
+                                                <div class="major-section-header">
+                            <h3 class="major-section-title">
+                                <span class="major-section-icon">📑</span>
+                                GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING
+                            </h3>
+                            <p class="major-section-description">Analysis of global economic conditions, policy developments, and geopolitical influences</p>
+                        </div>
+
+<div class="collapsible-section">
                             <div class="section-header" onclick="toggleSection(1)">
                                 <span class="collapse-icon" id="icon-1">▶</span>
                                 <h4 class="section-title"><span class="section-number">1.1</span> Global Economy Faces Multiple Upheavals and Tariff Disruptions</h4>
@@ -623,7 +631,15 @@
                         </div>
 
 
-                        <div class="collapsible-section">
+                                                <div class="major-section-header">
+                            <h3 class="major-section-title">
+                                <span class="major-section-icon">📑</span>
+                                TRENDS IN THE DOMESTIC ECONOMY
+                            </h3>
+                            <p class="major-section-description">Examination of India's economic performance and sectoral trends in FY26</p>
+                        </div>
+
+<div class="collapsible-section">
                             <div class="section-header" onclick="toggleSection(8)">
                                 <span class="collapse-icon" id="icon-8">▶</span>
                                 <h4 class="section-title"><span class="section-number">1.7</span> Review of Indian Economy Performance in FY26</h4>
@@ -644,7 +660,14 @@
                         </div>
 
 
-                        <div class="collapsible-section">
+                                                <div class="subsection-header">
+                            <h4 class="subsection-title">
+                                <span class="subsection-icon">▸</span>
+                                Advance Estimates for FY26 reflect strong growth momentum
+                            </h4>
+                        </div>
+
+<div class="collapsible-section">
                             <div class="section-header" onclick="toggleSection(9)">
                                 <span class="collapse-icon" id="icon-9">▶</span>
                                 <h4 class="section-title"><span class="section-number">1.8</span> India Charts Steady Growth Amid Global Uncertainty</h4>
@@ -670,7 +693,14 @@
                         </div>
 
 
-                        <div class="collapsible-section">
+                                                <div class="subsection-header">
+                            <h4 class="subsection-title">
+                                <span class="subsection-icon">▸</span>
+                                Demand side: Domestic drivers anchor GDP growth in FY26
+                            </h4>
+                        </div>
+
+<div class="collapsible-section">
                             <div class="section-header" onclick="toggleSection(10)">
                                 <span class="collapse-icon" id="icon-10">▶</span>
                                 <h4 class="section-title"><span class="section-number">1.9</span> Domestic Demand Underpins Economic Growth</h4>
@@ -788,7 +818,14 @@
                         </div>
 
 
-                        <div class="collapsible-section">
+                                                <div class="subsection-header">
+                            <h4 class="subsection-title">
+                                <span class="subsection-icon">▸</span>
+                                Supply side: Sectoral drivers of growth
+                            </h4>
+                        </div>
+
+<div class="collapsible-section">
                             <div class="section-header" onclick="toggleSection(15)">
                                 <span class="collapse-icon" id="icon-15">▶</span>
                                 <h4 class="section-title"><span class="section-number">1.16</span> Services Sector Leads Supply-Side Growth</h4>
@@ -1847,7 +1884,73 @@
                     font-weight: 600;
                 }
 
+                /* Major section headers */
+                .major-section-header {
+                    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+                    color: white;
+                    padding: 2rem 2rem 1.5rem 2rem;
+                    margin: 3rem 0 2rem 0;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+                }
+
+                .major-section-title {
+                    margin: 0 0 0.75rem 0;
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+
+                .major-section-icon {
+                    font-size: 1.75rem;
+                }
+
+                .major-section-description {
+                    margin: 0;
+                    font-size: 1rem;
+                    opacity: 0.95;
+                    font-weight: 400;
+                    line-height: 1.6;
+                }
+
+                /* Subsection headers */
+                .subsection-header {
+                    background: linear-gradient(to right, #f0f9ff, #e0f2fe);
+                    border-left: 5px solid #0ea5e9;
+                    padding: 1.25rem 1.5rem;
+                    margin: 2rem 0 1.5rem 0;
+                    border-radius: 8px;
+                }
+
+                .subsection-title {
+                    margin: 0;
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                    color: #075985;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.75rem;
+                }
+
+                .subsection-icon {
+                    color: #0ea5e9;
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                }
+
                 @media (max-width: 768px) {
+                    .major-section-title {
+                        font-size: 1.25rem;
+                    }
+                    
+                    .subsection-title {
+                        font-size: 1.1rem;
+                    }
+                    
                     .charts-grid, .tables-grid {
                         grid-template-columns: 1fr;
                     }
