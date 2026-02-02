@@ -28773,6 +28773,149 @@
 <script>
 // State management
 let completed = JSON.parse(localStorage.getItem('completed') || '[]');
+let chapterDataCache = {}; // Cache for loaded JSON data
+
+// Chapter file mapping
+const chapterFiles = {
+    1: 'chapter_01_state_of_the_economy.json',
+    2: 'chapter_02_fiscal_policy.json',
+    3: 'chapter_03_monetary_and_financial_sector.json',
+    4: 'chapter_04_external_sector.json',
+    5: 'chapter_05_prices_and_inflation.json',
+    6: 'chapter_06_agriculture.json',
+    7: 'chapter_07_services_sector.json',
+    8: 'chapter_08_manufacturing.json',
+    9: 'chapter_09_infrastructure.json',
+    10: 'chapter_10_climate_and_environment.json',
+    11: 'chapter_11_human_development.json',
+    12: 'chapter_12_employment_and_skills.json',
+    13: 'chapter_13_social_inclusion.json',
+    14: 'chapter_14_artificial_intelligence.json',
+    15: 'chapter_15_urban_development.json',
+    16: 'chapter_16_strategic_autonomy.json',
+    17: 'chapter_17_state_capacity.json'
+};
+
+// Load chapter content from JSON
+async function loadChapterContent(chapterId) {
+    // Check cache first
+    if (chapterDataCache[chapterId]) {
+        return chapterDataCache[chapterId];
+    }
+
+    const filename = chapterFiles[chapterId];
+    if (!filename) {
+        console.error('No JSON file mapping for chapter', chapterId);
+        return null;
+    }
+
+    try {
+        const response = await fetch(filename);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        chapterDataCache[chapterId] = data;
+        return data;
+    } catch (error) {
+        console.error('Error loading chapter content:', error);
+        return null;
+    }
+}
+
+// Render chapter sections from JSON data
+function renderChapterSections(chapterData, containerId, chapterId) {
+    const container = document.getElementById(containerId);
+    if (!container) {
+        console.error('Container not found:', containerId);
+        return;
+    }
+
+    // Find the full-content-section div
+    const fullContentSection = container.querySelector('.full-content-section');
+    if (!fullContentSection) {
+        console.error('Full content section not found in container');
+        return;
+    }
+
+    // Find the content container (the div with white background and border)
+    const contentDiv = fullContentSection.querySelector('div[style*="background: #ffffff"]');
+    if (!contentDiv) {
+        console.error('Content div not found');
+        return;
+    }
+
+    // Find or create the inner div with styling
+    let innerDiv = contentDiv.querySelector('div[style*="color: #1f2937"]');
+    if (!innerDiv) {
+        innerDiv = document.createElement('div');
+        innerDiv.style.color = '#1f2937';
+        innerDiv.style.fontSize = '1.05rem';
+        innerDiv.style.lineHeight = '1.8';
+        contentDiv.appendChild(innerDiv);
+    }
+
+    // Clear existing content except the chapter introduction
+    const existingIntro = innerDiv.querySelector('.section-summary');
+    innerDiv.innerHTML = '';
+    if (existingIntro) {
+        innerDiv.appendChild(existingIntro);
+    } else {
+        // Create chapter introduction from summary
+        const introDiv = document.createElement('div');
+        introDiv.className = 'section-summary';
+        introDiv.innerHTML = `
+            <h4>📌 Chapter Introduction</h4>
+            <p><strong>${chapterData.summary[0]}</strong></p>
+        `;
+        innerDiv.appendChild(introDiv);
+    }
+
+    // Render each section
+    let sectionCounter = 1;
+    chapterData.sections.forEach((section, index) => {
+        const sectionDiv = document.createElement('div');
+        sectionDiv.className = 'collapsible-section';
+        
+        // Create section header
+        const headerId = `section-${chapterId}-${sectionCounter}`;
+        const contentId = `content-${chapterId}-${sectionCounter}`;
+        
+        sectionDiv.innerHTML = `
+            <div class="section-header" onclick="toggleSection('${chapterId}-${sectionCounter}')">
+                <span class="collapse-icon" id="icon-${chapterId}-${sectionCounter}">▶</span>
+                <h4 class="section-title"><span class="section-number">${section.section_id}</span> ${section.title}</h4>
+            </div>
+            <div class="section-content" id="content-${chapterId}-${sectionCounter}">
+                ${renderSectionContent(section.content)}
+            </div>
+        `;
+        
+        innerDiv.appendChild(sectionDiv);
+        sectionCounter++;
+    });
+}
+
+// Render content items (paragraphs, lists, etc.)
+function renderSectionContent(contentArray) {
+    let html = '';
+    
+    contentArray.forEach(item => {
+        if (item.type === 'paragraph') {
+            html += `<p class="content-paragraph">${item.text}</p>\n`;
+        } else if (item.type === 'list') {
+            html += '<ul class="content-list">\n';
+            item.items.forEach(listItem => {
+                html += `<li>${listItem}</li>\n`;
+            });
+            html += '</ul>\n';
+        } else if (item.type === 'heading') {
+            html += `<h5 class="content-heading">${item.text}</h5>\n`;
+        }
+    });
+    
+    return html;
+}
 
 // Tab switching
 function showTab(tabName) {
@@ -28783,9 +28926,16 @@ function showTab(tabName) {
     event.target.classList.add('active');
 }
 
-// Read chapter
-function readChapter(id) {
+// Read chapter - enhanced with JSON loading
+async function readChapter(id) {
     showTab('read');
+    
+    // Load chapter content from JSON
+    const chapterData = await loadChapterContent(id);
+    if (chapterData) {
+        renderChapterSections(chapterData, 'chapter-' + id, id);
+    }
+    
     setTimeout(() => {
         document.querySelectorAll('.chapter-content').forEach(el => el.classList.remove('active'));
         const chapterEl = document.getElementById('chapter-' + id);
