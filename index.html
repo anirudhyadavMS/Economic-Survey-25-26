@@ -28783,13 +28783,171 @@ function showTab(tabName) {
     event.target.classList.add('active');
 }
 
-// Read chapter
-function readChapter(id) {
+// Load chapter data from JSON file
+async function loadChapterFromJSON(id) {
+    try {
+        const response = await fetch(`chapter_${String(id).padStart(2, '0')}.json`);
+        if (!response.ok) {
+            throw new Error(`Failed to load chapter ${id}`);
+        }
+        return await response.json();
+    } catch (error) {
+        console.error(`Error loading chapter ${id} from JSON:`, error);
+        return null;
+    }
+}
+
+// Render chapter content from JSON data
+function renderChapterContent(data) {
+    const chapterId = data.id;
+    let html = `
+        <div class="chapter-header">
+            <div class="chapter-title-big">
+                <span>${data.icon}</span>
+                ${data.title}
+            </div>
+            <div class="chapter-subtitle-big">"${data.subtitle}"</div>
+        </div>
+
+        <div class="summary-box">
+            <h3>📝 Executive Summary</h3>
+            <p>${data.summary}</p>
+        </div>
+
+        <div class="key-points">
+            <h3>⭐ Key Points You MUST Know</h3>
+            <ul>
+                ${data.keyPoints.map(point => `<li>${point}</li>`).join('\n                ')}
+            </ul>
+        </div>
+
+        <div class="why-matters">
+            <h3>💡 Why This Chapter Matters for Your Career</h3>
+            <p>${data.whyMatters}</p>
+        </div>
+
+        <div class="action-bar">
+            <button class="btn btn-success" onclick="toggleComplete(${chapterId})">
+                <i class="fas fa-check"></i> <span id="btn-${chapterId}">Mark Complete</span>
+            </button>
+        </div>
+
+        <div class="notes">
+            <h4>📝 Your Personal Notes for Chapter ${chapterId}</h4>
+            <textarea id="notes-${chapterId}" placeholder="Write your key takeaways, questions, and insights here..."></textarea>
+            <div style="margin-top: 1rem;">
+                <button class="btn btn-primary" onclick="saveNotes(${chapterId})">
+                    <i class="fas fa-save"></i> Save Notes
+                </button>
+            </div>
+        </div>
+    
+        <div class="full-content-section">
+            <div style="border-top: 3px solid #e5e7eb; padding-top: 2rem; margin-top: 2rem;">
+                <h3 style="font-size: 1.75rem; margin-bottom: 0.75rem; color: #1f2937; font-weight: 700;">
+                    <i class="fas fa-book-open"></i> Complete Chapter Content
+                </h3>
+                <p style="color: #6b7280; margin-bottom: 2rem; font-size: 1rem; line-height: 1.6;">
+                    Chapter ${chapterId} content from the Economic Survey - read the full text below.
+                </p>
+            </div>
+            
+            <div style="background: #ffffff; border: 2px solid #e5e7eb; border-radius: 12px; padding: 2rem; margin-bottom: 1rem;">
+                <div style="color: #1f2937; font-size: 1.05rem; line-height: 1.8;">
+
+                    <div class="section-summary">
+                        <h4>📌 Chapter Introduction</h4>
+                        <p>${data.introduction}</p>
+                    </div>
+
+                    ${renderSections(data.sections, chapterId)}
+                </div>
+            </div>
+        </div>
+    `;
+    
+    return html;
+}
+
+// Render sections recursively
+function renderSections(sections, chapterId) {
+    let html = '';
+    let sectionCounter = 0;
+    
+    sections.forEach(section => {
+        if (section.type === 'major') {
+            html += `
+                <div class="major-section-header">
+                    <h3 class="major-section-title">
+                        <span class="major-section-icon">${section.icon}</span>
+                        ${section.title}
+                    </h3>
+                    <p class="major-section-description">${section.description}</p>
+                </div>
+            `;
+            
+            if (section.subsections && section.subsections.length > 0) {
+                html += renderSections(section.subsections, chapterId);
+            }
+        } else if (section.type === 'collapsible') {
+            sectionCounter++;
+            const sectionId = `${chapterId}-${sectionCounter}`;
+            html += `
+                <div class="collapsible-section">
+                    <div class="section-header" onclick="toggleSection('${sectionId}')">
+                        <span class="collapse-icon" id="icon-${sectionId}">▶</span>
+                        <h4 class="section-title"><span class="section-number">${section.number}</span> ${section.title}</h4>
+                    </div>
+                    <div class="section-content" id="content-${sectionId}">
+                        <div class="section-mini-summary">
+                            <p>${section.summary}</p>
+                        </div>
+                        ${section.content.map(para => `<p class="content-paragraph">${para}</p>`).join('\n                        ')}
+                    </div>
+                </div>
+            `;
+        } else if (section.type === 'box') {
+            sectionCounter++;
+            const boxId = `${chapterId}-box-${sectionCounter}`;
+            html += `
+                <div class="box-section">
+                    <div class="box-header" onclick="toggleBox('${boxId}')">
+                        <span class="box-icon" id="box-icon-${boxId}">▶</span>
+                        <h4 class="box-title">📦 ${section.title}</h4>
+                    </div>
+                    <div class="box-content" id="box-content-${boxId}">
+                        <div class="box-summary">
+                            ${section.content}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    });
+    
+    return html;
+}
+
+// Read chapter - now loads from JSON
+async function readChapter(id) {
     showTab('read');
+    
+    // Try to load from JSON first
+    const chapterData = await loadChapterFromJSON(id);
+    
     setTimeout(() => {
         document.querySelectorAll('.chapter-content').forEach(el => el.classList.remove('active'));
         const chapterEl = document.getElementById('chapter-' + id);
-        if (chapterEl) {
+        
+        if (chapterData && chapterEl) {
+            // Render from JSON data
+            chapterEl.innerHTML = renderChapterContent(chapterData);
+            chapterEl.classList.add('active');
+            loadNotes(id);
+            updateProgress(); // Update button states
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        } else if (chapterEl) {
+            // Fallback to hardcoded content
             chapterEl.classList.add('active');
             loadNotes(id);
             window.scrollTo({top: 0, behavior: 'smooth'});
