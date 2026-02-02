@@ -28838,6 +28838,12 @@ function renderChapterSections(chapterData, containerId, chapterId) {
         return;
     }
 
+    // Update the description paragraph
+    const descParagraph = fullContentSection.querySelector('p[style*="color: #6b7280"]');
+    if (descParagraph) {
+        descParagraph.textContent = `Chapter ${chapterId} content from the Economic Survey - read the full text below.`;
+    }
+
     // Find the content container (the div with white background and border)
     const contentDiv = fullContentSection.querySelector('div[style*="background: #ffffff"]');
     if (!contentDiv) {
@@ -28855,21 +28861,17 @@ function renderChapterSections(chapterData, containerId, chapterId) {
         contentDiv.appendChild(innerDiv);
     }
 
-    // Clear existing content except the chapter introduction
-    const existingIntro = innerDiv.querySelector('.section-summary');
+    // Clear existing content and create chapter introduction from summary
     innerDiv.innerHTML = '';
-    if (existingIntro) {
-        innerDiv.appendChild(existingIntro);
-    } else {
-        // Create chapter introduction from summary
-        const introDiv = document.createElement('div');
-        introDiv.className = 'section-summary';
-        introDiv.innerHTML = `
-            <h4>📌 Chapter Introduction</h4>
-            <p><strong>${chapterData.summary[0]}</strong></p>
-        `;
-        innerDiv.appendChild(introDiv);
-    }
+    
+    // Create chapter introduction from summary
+    const introDiv = document.createElement('div');
+    introDiv.className = 'section-summary';
+    introDiv.innerHTML = `
+        <h4>📌 Chapter Introduction</h4>
+        <p><strong>${chapterData.summary[0]}</strong></p>
+    `;
+    innerDiv.appendChild(introDiv);
 
     // Render each section
     let sectionCounter = 1;
