@@ -83,9 +83,20 @@ The Economic Survey is organized into 17 chapters:
 
 - **Single-page application** built with vanilla HTML, CSS, and JavaScript
 - **No external dependencies** - works completely offline
+- **Dynamic content loading** from JSON files for better maintainability
 - **localStorage** for data persistence
 - **Responsive design** for mobile, tablet, and desktop
 - **FontAwesome icons** for enhanced UI (CDN)
+
+### Architecture
+
+The application uses a hybrid approach:
+- **Structured Data**: Chapter content stored in JSON files (`chapter_01.json` to `chapter_17.json`)
+- **Dynamic Rendering**: JavaScript fetches and renders JSON content on-demand
+- **Fallback Support**: Hardcoded HTML content available if JSON loading fails
+- **Client-side Only**: No server required, runs entirely in the browser
+
+See [JSON_FORMAT.md](JSON_FORMAT.md) for detailed information about the chapter data schema.
 
 ## 📖 Data Source
 
@@ -105,6 +116,11 @@ Content extracted from the official Economic Survey 2025-26 PDF published by the
 ```
 economic-survey-2025-26/
 ├── index.html          # Main application file
+├── chapter_01.json     # Chapter 1 data (State of the Economy)
+├── chapter_02.json     # Chapter 2 data (Fiscal Policy)
+├── ...                 # Chapters 3-16
+├── chapter_17.json     # Chapter 17 data (State Capacity)
+├── JSON_FORMAT.md      # JSON schema documentation
 ├── README.md           # This file
 ├── LICENSE             # MIT License
 └── .gitignore          # Git ignore rules
@@ -112,9 +128,11 @@ economic-survey-2025-26/
 
 ### Local Development
 1. Clone the repository
-2. Open `index.html` in your browser
-3. Make changes to the HTML file
+2. Open `index.html` in your browser (or serve via HTTP server)
+3. Make changes to JSON files or HTML file
 4. Refresh browser to see updates
+
+**Note**: Chapter content is now loaded dynamically from JSON files. To add or modify chapter content, edit the corresponding `chapter_XX.json` file. See `JSON_FORMAT.md` for schema details.
 
 ## 📝 License
 

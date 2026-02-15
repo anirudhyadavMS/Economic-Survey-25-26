@@ -1,0 +1,782 @@
+{
+  "id": 1,
+  "icon": "🌍",
+  "title": "Chapter 1: State of the Economy",
+  "subtitle": "Frontier",
+  "pages": "2-37",
+  "summary": "India achieved over 7% GDP growth in 2025, marking the strongest macroeconomic performance in decades. However, the Survey emphasizes unprecedented global challenges ahead. Three scenarios for 2026 outline 80-90% probability of moderate to severe disruption: Managed Disorder (40-45%), Multipolar Breakdown (40-45%), and Systemic Shock Cascade (10-20%). Despite credit upgrades from S&P, DBRS, and R&I, the rupee underperformed due to geopolitical factors rather than fundamentals. India's Power Gap score of -4.0 indicates the nation operates below its strategic potential. The Survey's central message: India must \"run a marathon and sprint simultaneously\" - maximizing domestic growth while building shock absorption capacity.",
+  "keyPoints": [
+    "GDP Growth:7%+ in 2025, accelerated through the year despite expectations of slowdown",
+    "Credit Upgrades:S&P upgraded India from BBB- to BBB (first major upgrade in 20 years), plus DBRS and R&I upgrades",
+    "US Tariffs:50% total (25% reciprocal announced April + 25% penal announced August)",
+    "Rupee Performance:Depreciated despite strong fundamentals - victim of geopolitics, not economics",
+    "Power Gap:-4.0 score (Lowy Institute) - lowest in Asia, indicating India operates below its full strategic potential",
+    "Three 2026 Scenarios:40-45% Managed Disorder, 40-45% Multipolar Breakdown, 10-20% Systemic Shock",
+    "Gold Price:Rose from $2,607 to $4,315 in 2025 (now $5,101) - reflecting risk-off sentiment and geopolitical hedging",
+    "Policy Reforms:GST overhaul, nuclear power opened to private sector, labor codes notified, environmental norms rationalized",
+    "Fiscal Achievement:4.8% deficit vs 4.9% target, with FY26 target of 4.4%",
+    "Balance of Payments Challenge:India needs capital flows and export earnings to cover rising import bill"
+  ],
+  "whyMatters": "This is THE most important chapter.It sets the context for every other policy discussed in the Survey. Understanding the three global scenarios determines your ability to interpret fiscal policy (why consolidation matters), monetary policy (why RBI cut rates), external sector challenges (why rupee fell), and strategic autonomy push (why Swadeshi is inevitable). Your boss will ask: \"What's the outlook?\" The answer is in this chapter: strong fundamentals meeting unprecedented external challenges, requiring simultaneous growth acceleration and risk mitigation. Master this chapter, and you master the Survey's strategic narrative.",
+  "introduction": "This chapter examines India's economic performance in FY26 against a backdrop of global uncertainty.The global economy faces geopolitical tensions and trade disruptions, while India maintains robust 7.4% GDP growth driven by domestic demand. The chapter analyzes demand and supply-side developments, macroeconomic fundamentals including inflation, fiscal health, external balances, and outlook for sustained growth.",
+  "sections": [
+    {
+      "type": "major",
+      "icon": "📑",
+      "title": "GLOBAL ECONOMIC GROWTH – FRAGILE AND DIVERGING",
+      "description": "Analysis of global economic conditions, policy developments, and geopolitical influences",
+      "subsections": [
+        {
+          "type": "collapsible",
+          "number": "1.1",
+          "title": "Global Economy Faces Multiple Upheavals and Tariff Disruptions",
+          "summary": "📝 Summary:This section discusses global economic upheavals since the last Economic Survey, focusing on US tariff impositions and their impact. Despite initial concerns, global economic activity remained relatively stable in the short term due to trade agreements, consumer spending ahead of tariff hikes, and implementation delays. IMF projections show emerging markets performed better than feared, though inflation in advanced economies stayed stubbornly high.",
+          "content": [
+            "been subjected to multiple upheavals. The most disruptive amongst these disturbances",
+            "was the imposition of tariffs by the USA on imports from its trade partners. The long",
+            "promised reciprocal tariffs, announced in April 2025, initially sparked concerns about",
+            "lower growth and higher inflation in the global economy which have proven to be",
+            "transient in the short run. This was due to multiple reasons. Trade agreements between",
+            "the US and certain trading partners have considerably lowered the US’s effective tariff",
+            "rate. According to the IMF's World Economic Outlook (WEO), October 2025, US",
+            "households and businesses increased their spending ahead of expected tariff hikes. In",
+            "some instances, delays in tariff implementation allowed businesses to postpone raising",
+            "prices and frontload their exports. As a result, global economic activity has remained",
+            "relatively stable in the short term. This is reflected in the IMF’s projections of growth and",
+            "inflation for advanced economies (AEs) and emerging market and developing economies",
+            "(EMDEs) made at various points in time between January 2025 and January 2026 (Table",
+            "I.1). Growth in EMDEs for the year 2025 is eventually higher than the levels projected in",
+            "April 2025, while that in AEs is projected to be better than initially feared, primarily",
+            "driven by strong growth in the US. For the year 2025, inflation in AEs is expected to have",
+            "remained stubbornly higher by 40 basis points compared to initial projections, while that",
+            "in EMDEs is expected to have declined further (Table I.1).",
+            "Table I.1: Revisions in IMF's global growth and inflation"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.2",
+          "title": "Hidden Economic Frailties Across Major Economies",
+          "summary": "📝 Summary:This section reveals hidden economic frailties within aggregate statistics, examining country-specific challenges. US growth remains strong from AI investment, European growth is mixed across countries, China faces deflationary pressures from its property crisis, and Japan experiences moderate growth with above-target inflation.",
+          "content": [
+            "State of the Economy33within and across countries. Growth in the US has remained strong, primarily driven",
+            "by investment in artificial intelligence (AI). Total IT investment, which also includes",
+            "spending by businesses on equipment and software to facilitate AI use, has accounted for",
+            "nearly half of GDP growth in recent quarters, helping to mitigate the negative effects of",
+            "trade tariffs on growth.1 This strong growth has been accompanied by inflation remaining",
+            "stubbornly above the 2 per cent target and a rising unemployment rate. While inflation",
+            "in Europe is broadly trending towards the European Central Bank’s target, growth in the",
+            "region’s economies has been mixed. Forecasts by the European Commission2 indicate that",
+            "growth rates in Germany, Italy, and France are expected to remain moderate, while Spain",
+            "is anticipated to outperform. In Asia, the Chinese economy continues to face deflationary",
+            "pressures amid headwinds stemming from the crisis in its property sector, indicating",
+            "tepid domestic demand, even as Chinese merchandise exports remain a key driver of its",
+            "growth. Growth in the Japanese economy remains moderate, while inflation continues to",
+            "exceed the Bank of Japan’s (BOJ) target of 2 per cent."
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.3",
+          "title": "Divergent Monetary Policy Trajectories Worldwide",
+          "summary": "📝 Summary:This section examines divergent monetary policy trajectories as economies shift from tightening to neutral or accommodative stances. The variance in growth-inflation dynamics across economies has led to different central bank policy rate paths, creating implications for global capital flows as investors seek higher yields.",
+          "content": [
+            "accommodative stance is still underway. However, the aforementioned variance in",
+            "growth-inflation dynamics has led to divergent trajectories of central bank policy rates",
+            "across these economies (Charts I.1 and I.2). This has implications for capital flows as",
+            "fund houses trot the globe in search of higher yields.",
+            "Chart I.1: Policy rates in EMDEs Chart I.2: Policy rates in AEs"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.4",
+          "title": "Expansionary Fiscal Policies Despite Weak Growth",
+          "summary": "📝 Summary:This section analyzes expansionary fiscal policies in major economies despite growth and inflation challenges. While 2025 primary deficits are smaller than pandemic levels, they remain significantly above pre-pandemic norms except in Brazil and India. Long-term borrowing costs and bond yields stay elevated as investors question government deficit coverage.",
+          "content": [
+            "economies stay expansionary. While the projected primary deficits for 2025 are",
+            "1  Aldasoro, I., Doerr, S., & Rees, D. (2026, January 7). Financing the AI boom: From cash flows to debt (BIS",
+            "Bulletin No. 120). Bank for International Settlements. https://www.bis.org/publ/bisbull120.pdf",
+            "2  European Commission, Directorate-General for Economic and Financial Affairs. (2025, November 17). Autumn",
+            "2025 economic forecast shows continued growth despite challenging environment. Economy and Finance.",
+            "Economic Survey 2025-2644generally smaller than the record deficits of 2020 and 2021, when substantial fiscal",
+            "stimulus was used to address the pandemic impact, they are still significantly higher",
+            "than pre-pandemic levels, except in Brazil and India (Chart I.3). Long-term borrowing",
+            "costs for the world’s biggest economies have stayed elevated as investors question the",
+            "ability of governments to cover massive budget deficits. These pressures are showing",
+            "in elevated bond yields across major AEs, particularly in the ultra-long tenure segment",
+            "(Chart I.4). Earlier in May 2025, 30-year bond yields reached a peak of 5.15 per cent in",
+            "the US, approaching levels last seen in 2007. Those in Japan exceeded the highest on",
+            "record in data since 1999, with auctions in both countries drawing tepid demand. Long-",
+            "dated bonds in the UK, Germany and Australia also faced selling pressure.3",
+            "pre-pandemic levelsChart I.4: Sovereign 10Y bond yields"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.5",
+          "title": "Elevated Global Economic Uncertainty and FDI Decline",
+          "summary": "📝 Summary:This section discusses elevated global economic uncertainty driven by geopolitical fragmentation and policy unpredictability. It examines the 11% year-over-year decline in global FDI flows in 2024, while noting capital flows are increasingly shaped by AI supply chain demand, particularly benefiting the US semiconductor sector.",
+          "content": [
+            "I.5), primarily on account of fragmentation in geopolitical relationships and lower",
+            "visibility on policy continuity. This, coupled with the aforementioned macroeconomic",
+            "developments, has led to a deterioration in global foreign direct investment (FDI)",
+            "flows. As per the United Nations Conference on Trade and Development’s (UNCTAD)",
+            "World Investment Report 20254, FDI flows in 2024, barring those in certain conduit",
+            "economies, declined by 11 per cent YoY (Chart I.6).  Capital flows are also increasingly",
+            "being shaped by the surge in demand across the AI supply chain in a few countries.",
+            "While FDI flows in most developed countries fell, they rose by 19.7 per cent in the US.",
+            "Among the top 10 highest-value greenfield projects announced in 2024, four were in",
+            "3 https://www.bloomberg.com/news/articles/2025-05-22/long-term-bond-yields-soar-globally-on-fiscal-policy-",
+            "4  United Nations Conference on Trade and Development. (2025). World Investment Report 2025: International",
+            "investment in the digital economy (UNCTAD/WIR/2025). UNCTAD. https://unctad.org/system/files/official-",
+            "State of the Economy55semiconductor manufacturing, with three of them located in the United States.5 Data",
+            "centre development is also expanding rapidly, driven by growing digital demand and"
+          ]
+        },
+        {
+          "type": "box",
+          "title": "Box I.1: The resurgence of economic statecraft and the imperative of",
+          "content": "📋 Detailed SummaryTopic:The Resurgence of Economic Statecraft and Strategic IndispensabilityThis box provides comprehensive analysis of how economic statecraft—using economic means for strategic ends—has resurged globally and what it means for India's development strategy.Historical Context:Ancient examples: Athens' Megarian Decree (432 BCE) - economic sanctions precipitating warRoman Cura Annonae - grain provisioning as economic and political instrumentKautilya's Arthashastra - systematic integration of economic governance with strategic imperativesModern Drivers of Economic Statecraft:Resurgence of ultra-nationalism narrowing multilateral cooperationSkepticism toward free trade and multilateral institutionsLack of updated global norms governing competition and subsidiesIntensified geopolitical tensions and armed conflictsStrategic competition for critical minerals and technologySupply chain restructuring through friend-shoring and near-shoringState support for strategic industries (renewables, EVs, semiconductors, AI)Contemporary Tools of Economic Statecraft:Export Controls:US restrictions on advanced semiconductors to ChinaResource Controls:China's rare earth export licensing and dual-use item bansSanctions:Entity blacklists and trade restrictionsTariffs:EU Carbon Border Adjustment Mechanism targeting high-emission exportersFiscal Policy:China's Belt and Road Initiative using infrastructure investment for economic dominanceImplications for India:India must move beyond strategic resilience to achievestrategic indispensability—offering goods, services, or roles critical enough to global value chains that partners cannot easily substitute. This requires:Strengthening domestic capabilities across key sectorsMaintaining macroeconomic stability as foundationActively shaping rules and standards in emerging areas (digital public infrastructure)Ensuring integration serves as source of influence rather than vulnerabilityConclusion:Building strategic indispensability is central to safeguarding India's growth, preserving policy space, and securing long-term economic sovereignty in an age of economic statecraft."
+        },
+        {
+          "type": "collapsible",
+          "number": "1.6",
+          "title": "Geopolitical Considerations Drive Economic Policy",
+          "summary": "📝 Summary:This section explains the increasing influence of geopolitical considerations on economic policy compared to the 2010s. It discusses how rapidly evolving country alignments, supply chain restructuring, and technological developments require supplementing traditional economic assessments with geopolitical perspectives.",
+          "content": [
+            "exert a much stronger influence than they did in the 2010s. Rapidly evolving country",
+            "alignments and supply chains, as well as technological developments, necessitate",
+            "supplementing traditional economic assessments with a geopolitical perspective.",
+            "In this context, Box I.1 elaborates on the resurgence of economic statecraft and the",
+            "highlighting how trade restrictions can precipitate major geopolitical conflicts.",
+            "7  It involved the procurement, storage, and distribution of grain, largely sourced from provinces such as Egypt and",
+            "North Africa, which were then under Roman control, and later included free or subsidised grain distributions to",
+            "Roman citizens. Administered by state officials and backed by imperial authority, the Cura Annonae was both an",
+            "economic and political instrument, aimed at preventing famine, controlling food prices, and maintaining social",
+            "stability. It is often regarded as one of the earliest examples of large-scale public welfare and state intervention in",
+            "State of the Economy77strategic distrust, is fostering a more fragmented and polarised global order,",
+            "accompanied by a weakening, both institutional and financial, of traditional standard-",
+            "• Consequently, geopolitical tensions have intensified. Armed conflict has flared up in",
+            "Eastern Europe and Western Asia after decades of relative peace.  Even traditionally",
+            "pacifist nations like Japan have upped their defence spending to 2 per cent of their GDP.",
+            "• Strategic competition is increasingly fuelling trade wars, while nations vie for access to",
+            "critical minerals and technological resources in a manner reminiscent of a new colonial"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "major",
+      "icon": "📑",
+      "title": "TRENDS IN THE DOMESTIC ECONOMY",
+      "description": "Examination of India's economic performance and sectoral trends in FY26",
+      "subsections": [
+        {
+          "type": "collapsible",
+          "number": "1.7",
+          "title": "Review of Indian Economy Performance in FY26",
+          "summary": "📝 Summary:This section outlines the chapter's approach to reviewing Indian economic performance using First Advance Estimates for FY26. It describes the analytical framework covering demand and supply-side drivers in H1 FY26, Q3 high-frequency indicators, and examination of key macroeconomic fundamentals including inflation, financial sector conditions, fiscal policy, external stability, and labor markets.",
+          "content": [
+            "economy as reflected in the First Advance Estimates for FY26. It analyses the demand",
+            "and supply side drivers of growth during the first half of FY26, supplemented by an",
+            "assessment of high-frequency indicators for the third quarter. The chapter then",
+            "examines key macroeconomic fundamentals, including trends in inflation, financial",
+            "sector conditions, fiscal policy, external stability, and labour market developments. It",
+            "concludes with an assessment of the near-term outlook for the economy as it heads into",
+            "Advance Estimates for FY26 reflect strong growth momentum"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.8",
+          "title": "India Charts Steady Growth Amid Global Uncertainty",
+          "summary": "📝 Summary:This section examines India's steady growth trajectory despite global uncertainty. The economy maintains strong momentum with domestic demand driving expansion, while services lead on the supply side and manufacturing strengthens, demonstrating resilience against external headwinds.",
+          "content": [
+            "State of the Economy99strong growth path, as reflected in the First Advance Estimates (FAE) for FY26 released",
+            "by the Ministry of Statistics and Programme Implementation (MoSPI). These estimates",
+            "place the real GDP growth rate at 7.4 per cent and the GVA growth rate at 7.3 per",
+            "cent, surpassing earlier projections by various agencies and our own estimates in the",
+            "Economic Survey of 2024-25, and reaffirming India's status as the fastest-growing",
+            "major economy for the fourth consecutive year. On the demand side, domestic demand",
+            "continues to anchor growth, supported by a strengthening momentum in capital",
+            "formation. On the supply side, manufacturing activity has gained traction, and services",
+            "continue to drive overall expansion, led by steady performance in trade, transport, and",
+            "financial and professional services. (see Table I.2a). The following sub-section examines",
+            "the sectoral composition and drivers of growth in H1 and the implied growth in H2 of",
+            "Table I.2a: Demand and Supply side drivers of growth"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.9",
+          "title": "Domestic Demand Underpins Economic Growth",
+          "summary": "📝 Summary:This section analyzes domestic demand as the key growth driver in FY26, with private consumption's share in GDP reaching 61.5%, the highest since FY12. PFCE grew 7.5% in H1 FY26, supported by low inflation, stable employment, and rising real purchasing power across both rural and urban areas.",
+          "content": [
+            "to the FAE, the share of final private consumption expenditure (PFCE) in GDP rose to",
+            "61.5 per cent in FY26, the highest level since FY12. This is corroborated by the strong",
+            "performance during the first half of the year, with PFCE growing by 7.5 per cent in H1",
+            "of FY26, and its share in GDP rising to 61.4 per cent. This is the fastest growth rate",
+            "since the first half of FY23 and remains higher than the pre-COVID trend of 6.9 per",
+            "cent10 (Chart I.7). This strength in consumption reflects a supportive macroeconomic",
+            "environment, characterised by low inflation, stable employment conditions, and rising",
+            "real purchasing power. Moreover, steady rural consumption, bolstered by strong",
+            "agricultural performance, and the gradual improvement in urban consumption, aided",
+            "by the rationalisation of direct and indirect taxes, reaffirm that the momentum in",
+            "10  Average PFCE growth during H1 and H2 of FY16-FY20",
+            "State of the Economy1111Chart I.7: Growth in PFCE highest",
+            "FY24 FY25 FY26% (Constant Prices, YoY)PFCE Growth Avg Growth (FY16-20)"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.10",
+          "title": "H2 Growth Estimates Show Slight Moderation",
+          "summary": "📝 Summary:This section notes that implicit H2 estimates from First Advance Estimates indicate slight growth moderation compared to H1, though the underlying growth trend remains robust, providing nuanced understanding of quarterly patterns within FY26.",
+          "content": [
+            "moderation in consumption growth. FAE, however, are based on an extrapolation",
+            "of FY25 consumption levels using data available up to November and are therefore",
+            "subject to revision as additional information becomes available. Subsequent estimates,",
+            "incorporating full-year data, will provide a more complete assessment of private",
+            "consumption performance during FY26, including the impact of recent tax reforms.",
+            "Currently, the strong consumption growth observed in H1, along with supportive high-",
+            "frequency indicators during Q3 of FY26, suggests that private consumption is likely to"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.11",
+          "title": "Q3 High-Frequency Indicators Show Strong Activity",
+          "summary": "📝 Summary:This section reviews Q3 FY26 high-frequency indicators including manufacturing PMI, services PMI, and industrial production. These real-time metrics confirm sustained economic momentum and validate official growth projections.",
+          "content": [
+            "automobile and tractor sales, as well as air passenger traffic, signal the continuation of",
+            "the robust demand conditions (Table I.3). Furthermore, in the November 2025 round",
+            "of the NABARD Rural Economic Conditions and Sentiments Survey11 79.2 per cent of",
+            "rural households reported increased consumption during the last year, with the share",
+            "of monthly income spent on consumption rising to about 67 per cent, the highest since",
+            "the survey’s inception. This buoyancy in consumption demand can be attributed to",
+            "the positive impact of GST rate rationalisation and softer inflation, improving the real",
+            "11  National Bank for Agriculture and Rural Development (NABARD). (November, 2025). Rural Economic",
+            "Conditions and Sentiments Survey (RECSS): 8th round. NABARD. (https://tinyurl.com/5n5ku8rm)",
+            "Economic Survey 2025-261212Table I.3: Performance of high-frequency indicators indicates"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.12",
+          "title": "Investment Continues to Anchor Growth",
+          "summary": "📝 Summary:This section examines investment as a growth anchor alongside consumption in FY26. It analyzes Gross Fixed Capital Formation trends showing sustained capital formation that supports both current expansion and long-term growth potential.",
+          "content": [
+            "with the share of gross fixed capital formation (GFCF) estimated at 30.0 per cent.",
+            "Investment activity strengthened in the first half of the year, with, GFCF expanding",
+            "by 7.6 per cent, exceeding the pace recorded in the corresponding period last year and",
+            "remaining above the pre-pandemic average of 7.1 per cent (Chart I.9). This momentum",
+            "was buoyed by sustained public capital expenditure12 and a revival in private investment",
+            "activity as evident from corporate announcements.13 Reflecting this strength, the share",
+            "of GFCF in GDP remained steady at 30.5 per cent in H1 of FY26, well above the pre-",
+            "pandemic average of 28.6 per cent (Chart I.10). Together, these developments indicate",
+            "a strengthening of the investment cycle, supporting growth.",
+            "FY24 FY25 FY26% (Constant Prices, YoY)GFCF Growth Avg Growth (FY16-20)"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.14",
+          "title": "External Demand Provides Incremental Support",
+          "summary": "📝 Summary:This section analyzes the incremental support from external demand while domestic drivers remained primary growth sources in FY26. It examines net export contributions and external trade's role in the overall growth narrative.",
+          "content": [
+            "demand15, with a share of 21.6 per cent of GDP, also supported growth.  In the first half of",
+            "FY26, exports of goods and services grew by 5.9 per cent, exceeding the growth seen in the",
+            "same period last year, and remaining above the pre-pandemic average, supported by trade",
+            "diversification (Chart I.11). Services exports have continued to provide a stable anchor",
+            "for growth, partially offsetting the greater volatility in goods exports, amid tariff related",
+            "uncertainties. The broader external sector dynamics are examined in detail in Chapter 4.",
+            "above pre-pandemic levelsChart I.12:  Exports share in GDP",
+            "FY24 FY25 FY26% (Constant Prices, YoY)Growth in exports of goods and"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.16",
+          "title": "Services Sector Leads Supply-Side Growth",
+          "summary": "📝 Summary:This section provides supply-side analysis showing services sector leadership in GVA growth during FY26. It breaks down sectoral contributions highlighting how services, manufacturing, and agriculture each contributed to overall economic output.",
+          "content": [
+            "industry and services sectors, supported by sustained capital expenditure, improved",
+            "capacity utilisation, and steady demand for services. Agriculture has provided a",
+            "stabilising force, with output supported by favourable monsoon conditions and steady",
+            "long-term averageChart I.14: Volatile crop growth offset",
+            "FY24 FY25 FY26% (Constant Prices, YoY)Agriculture and allied sectors growth"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.17",
+          "title": "Agriculture Sector Grows 3.1% in FY26",
+          "summary": "📝 Summary:This section discusses agriculture and allied services' estimated 3.1% growth in FY26. It examines agricultural performance, production patterns, and the sector's contribution to economic stability despite facing structural constraints.",
+          "content": [
+            "Agricultural activity in H1 FY26 was supported by a favourable monsoon. Agricultural",
+            "GVA grew by 3.6 per cent, higher than the 2.7 per cent growth recorded in H1 FY25, but",
+            "remained below the long-term average17 of 4.5 per cent (Chart I.13). This trend reflects",
+            "the structural characteristics of agricultural growth rather than short-term weather",
+            "conditions. Crop-sector growth, which accounts for more than half of agricultural",
+            "GVA, has been marked by significant year-to-year variability and has not exhibited a",
+            "sustained upward trend, reflecting limited productivity gains over time (See Chapter",
+            "State of the Economy15156 for details). By contrast, allied activities, particularly livestock and fisheries, have",
+            "grown at relatively stable rates of around 5-6 per cent (Chart I.14). As their share in",
+            "agricultural GVA has increased, aggregate agricultural growth has increasingly reflected",
+            "a weighted outcome of volatile crop performance and a relatively stable expansion in"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.18",
+          "title": "Rabi Sowing Progresses Well",
+          "summary": "📝 Summary:This section reviews favorable Rabi sowing progress aided by replenished reservoir levels from good monsoon rainfall. Agricultural indicators point to positive outlook for winter crop production supporting food security and rural incomes.",
+          "content": [
+            "adequate soil moisture, and sufficient availability of inputs. As of 16 January 2026,",
+            "areas sown under major crops, wheat and gram, are respectively 1.9 per cent and 5.1",
+            "per cent higher than the corresponding period last year. Agricultural supply prospects,",
+            "therefore, remain supportive. This is expected to strengthen farm incomes and sustain",
+            "rural demand, enabling agriculture to provide a steady contribution to overall growth"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.19",
+          "title": "Industrial Sector Share and Growth Dynamics",
+          "summary": "",
+          "content": [
+            "GVA. The compression in manufacturing’s GVA share stems from relative price effects",
+            "rather than reflecting a decline in manufacturing activities (See section ‘GDP Deflators:",
+            "Manufacturing’s Reversal in Terms of Trade’ in Chapter V) and higher intermediate",
+            "consumption, which reduces net value added relative to sectors with greater pricing",
+            "power, particularly services. In real (constant) price terms, manufacturing’s share has",
+            "remained steady at around 17-18 per cent (Chart I.16). Manufacturing’s gross value",
+            "of output (GVO) has remained broadly stable at around 38 per cent, comparable to",
+            "services, indicating that output has been sustained. Moreover, in FY26, the industrial",
+            "sector is expected to gain momentum, growing at 6.2 per cent, up from 5.9 per cent in",
+            "GVA deflator has remained moderate Chart 1.16: Share of manufacturing"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.21",
+          "title": "Construction Activity Records Strong Growth",
+          "summary": "",
+          "content": [
+            "cent growth, lower than in H1 of FY25 but underpinned by sustained public capital",
+            "expenditure and ongoing momentum in infrastructure projects (See Chapter 9 for",
+            "details). Overall, industrial growth remained broad-based, with most segments",
+            "Chart I.17: Sectoral growth in H1:FY26 higher than pre-pandemic trends",
+            "services   ConstructionYoY Growth at constant pricesH1:FY16-FY20 H1:FY25 H1:FY26"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.22",
+          "title": "Manufacturing PMI Indicates Expansion",
+          "summary": "",
+          "content": [
+            "IIP manufacturing, and e-way bill generation, signal a strengthening of manufacturing",
+            "activity underpinned by robust demand (Table I.5). Construction indicators, such as",
+            "steel consumption and cement production, have witnessed a steady growth. Looking",
+            "ahead, momentum in industrial activity is expected to remain buoyant, boosted by the",
+            "rationalisation of GST and a favourable demand outlook.",
+            "18  Reserve Bank of India. (2025). Governor’s statement: Monetary policy statement, 2025–26 (December 3–5).",
+            "State of the Economy1717Table I.5: High-frequency indicators suggest",
+            "strengthening of industrial activity (YoY growth,  per cent)",
+            "Sector Indicators Q1 FY26 Q2 FY26 Q3 FY26 Monthly Avg"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.23",
+          "title": "Services Stabilize Overall Economic Growth",
+          "summary": "",
+          "content": [
+            "have grown by 9.1 per cent in FY26, up from 7.2 per cent in FY25, indicating a further"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.24",
+          "title": "Services GVA Grows 9.3% in H1 FY26",
+          "summary": "",
+          "content": [
+            "growth recorded in H1 of FY25 and the pre-pandemic average of 7.9 per cent (Chart",
+            "I.18). This momentum gained further traction in H1 FY26, with its share in GDP rising",
+            "to 53.6 per cent, surpassing the levels in H1 FY25 and the pre-pandemic period.",
+            "Chart I.18: Sectoral growth in H1:FY26 higher than pre-pandemic trends",
+            "ServicesYoY Growth at constant pricesH1:FY16-FY20 H1:FY25 H1:FY26",
+            "Economic Survey 2025-2618181.25.  Within the service sector, all sub-segments have grown past 9 per cent, save for",
+            "the heavily Covid-impacted ‘trade, hospitality, transport, communication and related",
+            "services’, which is still 50 basis points away from the pre-pandemic average."
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.26",
+          "title": "Services Sector Momentum Continues in H2",
+          "summary": "",
+          "content": [
+            "momentum, supported by resilient domestic demand and steady export activity. The",
+            "high-frequency indicators for Q3 FY26 corroborate this assessment. Services PMI",
+            "readings, port cargo traffic, railway freight, and trends in passenger and air cargo movement",
+            "indicate continued strength in service activity, even as some moderation has emerged in",
+            "recent months. The easing observed in certain transport segments reflects a combination",
+            "of temporary disruptions, short-term demand adjustments, elevated operating costs,",
+            "capacity constraints, and geopolitical uncertainties affecting international routes.",
+            "Table I.6: HFI indicators point to a continuation of",
+            "momentum in service activity (YoY growth,  per cent)",
+            "Source: IHS Markit, IPA, AAI, Ministry of Railways, HVS Anarock",
+            "Note: *Data up to November 2025. ^PMI Services value corresponds to index value. The data of Railway freight"
+          ]
+        },
+        {
+          "type": "box",
+          "title": "Box I.2: Nowcasting India’s quarterly GDP growth",
+          "content": "📋 Detailed SummaryTopic:Nowcasting India's Quarterly GDP GrowthThis box explains the methodology and application of nowcasting framework for real-time GDP growth estimates using high-frequency indicators.What is Nowcasting:Nowcasting provides real-time estimates of current-quarter economic activity before official GDP data becomes available, enabling timely policy responses and economic assessment.Methodology:Model:ARIMAX (AutoRegressive Integrated Moving Average with eXogenous inputs) with parameters p=1, d=0, q=1Indicators Used:15+ high-frequency variables including:Manufacturing and Services PMIIndex of Industrial Production (IIP)Exports and imports dataCredit growth metricsVarious sectoral activity indicatorsFrequency:Monthly data allowing for continuous monitoringTrack Record:Three years of operational use and validationModel has matured into reliable tool for near-term monitoringPredictions closely align with actual GDP outcomesProvides valuable lead time for policy adjustmentsApplications:Assessing growth in ongoing quarters before official data releasePredicting subsequent quarter trends based on current indicatorsInforming real-time policy decisionsValidating or challenging preliminary estimatesSignificance:This framework has become essential for monitoring India's economic conditions in real-time, providing policymakers and analysts with timely insights crucial for economic management."
+        },
+        {
+          "type": "box",
+          "title": "Box I.3: Strengthening India’s National Statistical System:",
+          "content": "📋 Detailed SummaryTopic:Strengthening India's National Statistical SystemThis box comprehensively details India's multi-faceted approach to modernizing its statistical infrastructure for better evidence-based policymaking.1. Expanding the Data Frontier (New Surveys):ASISSE:Annual Survey of Incorporated Service Sector Enterprises (from April 2026) - first systematic coverage of incorporated servicesAIDIS 2026-27:All India Debt and Investment Survey providing comprehensive household asset ownership and indebtedness dataSAS 2026-27:Situation Assessment Survey on Rural Agricultural Households covering income, production, technology use, and scheme accessHousehold Income Survey:Planned for 2026 to fill critical information gap, guided by Technical Expert Group2. Higher Frequency and Granular Statistics:ASUSE now released quarterly instead of annuallyPLFS sampling revised for monthly and quarterly estimatesLarger sample sizes enabling sub-state level dataReal-time economic monitoring capabilities3. Survey Modernization:Computer-Assisted Personal Interviewing (CAPI) replacing paper-based methodsReduced data collection to dissemination time lagsImproved data quality and consistencyDigital workflows throughout statistical chain4. Macroeconomic Rebasing:GDP base year updated from FY12 to FY23WPI rebased from FY12 to FY22IIP rebased from FY12 to FY23 with expanded commodity basketBetter reflection of current economic structure5. Digital Dissemination Infrastructure:Unified data portals for centralized accessAPIs enabling real-time programmatic accessEnhanced data visualization toolsIntegration with administrative databasesImpact:These comprehensive reforms position India's statistical system to provide timely, credible, and granular data essential for responsive policymaking in a rapidly evolving economy."
+        },
+        {
+          "type": "collapsible",
+          "number": "1.27",
+          "title": "National Accounts Show Broad-Based Growth",
+          "summary": "",
+          "content": [
+            "and high-frequency indicators for Q3 indicate a continuation of the growth momentum",
+            "during the year. Given the lag in the availability of official quarterly GDP estimates,",
+            "a nowcasting exercise using high-frequency indicators provides a contemporaneous",
+            "assessment of near-term growth conditions. The methodology and results of the",
+            "Chart I.19: Scree plot and cumulative explained variance",
+            "Chart I.20: Actual vs predicted GDP growth using nowcasting model",
+            "22 Nowcasting models often rely on DFMs to extract a small number of latent factors that capture the common",
+            "movement across many indicators. The scree plot helps identify the number of factors that explain most of the",
+            "variation, thereby ensuring parsimony in the model by avoiding overfitting through discarding noise-driven",
+            "components. A sharp drop in values indicates the point beyond which additional factors add little explanatory",
+            "State of the Economy2121This quarterly factor is then used as an exogenous variable in modelling GDP growth",
+            "as an Autoregressive Integrated Moving Average with Exogenous inputs (ARIMAX)"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.29",
+          "title": "Inflation Eases Amid Domestic Demand Growth",
+          "summary": "",
+          "content": [
+            "of inflation, which has improved real purchasing power and supported consumption.",
+            "Domestic inflation dynamics in FY26 (April-December) reflect a broad-based easing",
+            "in price pressures, led by a sharp disinflation in food prices (Chart I.21). Headline",
+            "CPI inflation declined to 1.7 per cent, driven primarily by corrections in vegetable and",
+            "pulse prices, supported by favourable farm conditions, supply-side interventions, and a",
+            "strong base effect. While core inflation has exhibited persistence, this has been largely",
+            "influenced by price spikes in precious metals; adjusting for these, underlying inflation",
+            "pressures appear materially softer, indicating limited demand-side overheating.",
+            "Looking ahead, the inflation outlook remains benign, supported by favourable supply-",
+            "side conditions and the gradual pass-through of GST rate rationalisation. However, the",
+            "trajectory of core inflation will need to be closely monitored in the context of monetary",
+            "policy easing and potential upward pressures from global base metal prices."
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.30",
+          "title": "Strong Domestic Demand and Capital Formation",
+          "summary": "",
+          "content": [
+            "has been underpinned by a prudent fiscal policy strategy, characterised by steady",
+            "revenue mobilisation and calibrated expenditure rationalisation. The gross tax revenue",
+            "collection has progressed resiliently during the year, with direct tax collections reaching",
+            "nearly 53 per cent of the budgeted annual target (as on November 2025). Indirect tax",
+            "collections also remained robust despite lower inflation and import volatility, with",
+            "gross GST collections in absolute terms recording multiple all-time highs during the",
+            "State of the Economy2525year. Recent tax policy reforms, including the restructuring of personal income tax",
+            "and the rationalisation of the GST rate, have supported consumption demand while",
+            "sustaining revenues in absolute terms. On the expenditure side, capital outlays recorded",
+            "a strong year-over-year increase, reaching nearly 60 per cent of the budgeted allocation",
+            "by November 2025. Also, the growth in revenue expenditure remained contained,"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.31",
+          "title": "Central Government Fiscal Consolidation",
+          "summary": "",
+          "content": [
+            "with sustained public investment, earning three sovereign rating upgrades this year",
+            "Between FY20 and FY25 (Provisional Actual), the share of capital spending in total",
+            "central government expenditure increased from about 12.5 per cent to 22.6 per cent,",
+            "while effective capex as a share of GDP rose from roughly 2.6 per cent to 4.0 per cent.",
+            "Even as the states are overshooting their revenue deficit, the central government,",
+            "through its Special Assistance to States for Capital Expenditure/Investment (SASCI),",
+            "has successfully incentivised the States to maintain capital expenditure at around 2.4",
+            "per cent of GDP. The expansion of unconditional cash transfers across several States",
+            "has contributed to rising revenue expenditure, with implications for fiscal space and",
+            "public investment at the state level (See Chapter II). Based on the broad trends observed",
+            "during the year, the central government remains well on track to achieve its envisaged",
+            "fiscal consolidation path, aiming to attain a fiscal deficit target of 4.4 per cent of GDP",
+            "by FY26. As of November 2025, the union government’s fiscal deficit stood at 62.3 per",
+            "Chart I.22:  Declining sovereign 10-yr yield spread over"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "1.32",
+          "title": "Markets Reward Government's Fiscal Commitment",
+          "summary": "",
+          "content": [
+            "fiscal discipline through lower sovereign bond yields, with the spread over U.S. bonds",
+            "declining by more than half (Chart I.22). Alongside a lower repo rate, these declining",
+            "Economic Survey 2025-262626yields, which serve as benchmarks for borrowing costs across the economy, will itself",
+            "act as a fiscal stimulus. Credit ratings agency, S&P Ratings, has acknowledged the",
+            "credibility of and the commitment to the fiscal glide path, while upgrading India’s rating",
+            "from ‘BBB-’ to ‘BBB’. CareEdge Global, in initiating its coverage of India, too assigned a",
+            "‘BBB+’ rating, underscoring India’s robust economic performance and fiscal discipline."
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.33. Alongside the fiscal stimulus provided by higher public capital expenditure and tax",
+          "summary": "",
+          "content": [
+            "reductions, monetary support was delivered through a cumulative reduction of 125 basis",
+            "points in the policy repo rate since February 2025 (as inflationary pressures moderated),",
+            "complemented by an injection of durable liquidity via cash reserve ratio cuts (₹ 2.5 lakh",
+            "crore25), open market operations (₹6.95 lakh crore26) and forex swap of around $25 billion.",
+            "These measures have been effectively transmitted to the banking system. The weighted",
+            "average lending rate (WALR) on fresh Rupee loans by scheduled commercial banks",
+            "declined by 59 basis points (bps), while the WALR on outstanding Rupee loans declined",
+            "by 69 bps between February and November 2025. Concurrently, the banking sector has",
+            "further strengthened its balance sheets, with gross non-performing asset (NPA) ratios",
+            "declining to multi-decade lows of 2.2 per cent, the half-yearly slippage ratio27 remaining",
+            "stable at 0.7 per cent, and profitability improving, supported by higher profit after tax",
+            "credit by SCBsChart I.24: Overall flow of financial"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.35. Against a backdrop of global trade uncertainty, India’s total exports (merchandise",
+          "summary": "",
+          "content": [
+            "and services) reached a record USD 825.3 billion in FY25, with continued momentum",
+            "in FY26. Despite heightened tariffs imposed by the United States, merchandise exports",
+            "grew by 2.4 per cent (April–December 2025), while services exports increased by",
+            "6.5 per cent. Merchandise imports for April-December 2025 increased by 5.9 per",
+            "cent. Following the trends in previous years, the rise in merchandise trade deficit has",
+            "been counterbalanced by an increase in services trade surplus, while the growth in",
+            "remittances has bolstered this balance (Chart I.25). In most years, remittances have",
+            "surpassed gross FDI inflows, underscoring their importance as a key source of external",
+            "funding. As a result, the current account deficit remains moderate at 0.8 per cent of",
+            "CAB as % of GDPUSD BillionMerchanside trade balance Services trade balance",
+            "Source: Table No.s 196, Handbook of Statistics on the Indian Economy, RBI"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.36. Within the capital account, gross FDI inflows continued to rise significantly,",
+          "summary": "",
+          "content": [
+            "growing by 16.1 per cent YoY in April-November 2025. While repatriation flows have",
+            "Economic Survey 2025-262828marginally declined by 4.2 per cent, an increase in FDI by India abroad of 34.9 per",
+            "cent over this period capped the growth in net FDI.28 Moreover, foreign portfolio",
+            "investments have experienced fluctuations, with three months of sizable net inflows",
+            "and six months of net outflows from April to December 2025, resulting in a modest",
+            "net outflow of USD 3.9 billion as of December 2025, compared to net inflows of USD",
+            "10.6 billion in the corresponding period of the previous year. FPI flows this year have",
+            "been tepid due to elevated uncertainty and increased interest in AI-related financial",
+            "investments in countries such as the US, Taiwan, and Korea. As a result, there was a",
+            "balance of payments (BOP) deficit of USD 6.4 billion in H1 FY26 compared to a surplus",
+            "of USD 23.8 billion in H1 FY25, which was funded by a decline in foreign exchange"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.37. This widened BOP deficit, coupled with market uncertainty over the outcome of a",
+          "summary": "",
+          "content": [
+            "trade deal with the US, has exerted pressure on the Indian Rupee, causing it to weaken.",
+            "Between April 1 and January 22, 2026, the Indian rupee depreciated by approximately",
+            "6.5 per cent against the US dollar. However, the movement in the INR has been orderly.",
+            "Over the medium to long term, exchange rate dynamics are expected to be guided by",
+            "structural fundamentals, such as productivity gains, export diversification towards",
+            "higher-value goods and services, deeper integration into GVCs and a stable policy"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.38. India’s external sector is placed comfortably in the short run. Forex reserves",
+          "summary": "",
+          "content": [
+            "cover over 11 months of imports as of 16 January 2026 and approximately 94.0 per cent",
+            "of the external debt outstanding as of the end of September 2025, offering a comfortable",
+            "liquidity cushion. The pursuit of a diversified trade strategy, as evidenced by the signing",
+            "of trade agreements with the UK, Oman, and New Zealand and the EU, and active",
+            "negotiations with US, bodes well for India’s exports. However, global developments",
+            "are complicating the outlook in the medium term. A proliferation of immigration",
+            "controls across countries typically favoured by Indian emigrants may cap the growth",
+            "in remittances. Global trade is being increasingly influenced by geopolitical alignments",
+            "and economic statecraft, which in turn may impact India’s exports. Therefore, it",
+            "becomes imperative that one of the overarching priorities of India’s policies must be",
+            "to enhance its competitiveness on the global stage and improve its attractiveness as an",
+            "investment destination. Box IV.3 in Chapter 4, External Sector explores the drivers of",
+            "success in attracting FDI in countries such as Vietnam and Taiwan, and outlines a way"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.39. India has witnessed improvements in the labour market, supported by",
+          "summary": "",
+          "content": [
+            "a combination of regulatory reforms, expanded social protection, and targeted",
+            "28  Net FDI is defined as Gross FDI inflow net of repatriation and net FDI by India abroad.",
+            "State of the Economy2929skill development initiatives. Recent labour market indicators suggest improving",
+            "employment conditions supported by ongoing structural reforms. Monthly PLFS",
+            "data show a broadly steady labour market with seasonal variations (Chart I.26).  The",
+            "quarterly averages of monthly estimates point to a decline in the unemployment rate",
+            "Chart I.26: Labour market dynamics for (Apr - Dec) FY26"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.40. The union government’s landmark step of notifying the implementation",
+          "summary": "",
+          "content": [
+            "of the Labour Codes marks a significant reform in the regulatory framework. The",
+            "consolidation of 29 central laws into four Labour Codes aims to simplify compliance,",
+            "enhance labour market flexibility, and extend security to a broader section of the",
+            "workforce, while maintaining safeguards for wages, occupational safety, and social",
+            "security. Importantly, the recognition of the gig and platform workers, with provisions",
+            "to enable their registration and inclusion within social security schemes, marks a step",
+            "towards formalising non-traditional forms of employment. Complementing these",
+            "reforms, government-led skilling initiatives have focused on enhancing employability",
+            "through industry-aligned training. Together, these measures aim to strengthen labour",
+            "market resilience, improve job quality, and better align workforce capabilities with the"
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.41. Social sector initiatives, supported by targeted welfare schemes, economic",
+          "summary": "",
+          "content": [
+            "reforms, and expanded access to essential services, have contributed to a reduction in",
+            "poverty levels. In June 2025, the World Bank revised the international poverty line from",
+            "USD 2.15 to USD 3.00 per day (PPP, 2021 prices). Based on the revised poverty line,",
+            "India’s poverty rates in 2022-23 are estimated at 5.3% per cent for extreme poverty and",
+            "23.9% per cent for lower-middle-income poverty, noting that these estimates are not",
+            "directly comparable with earlier poverty lines. Key health and education indicators, such",
+            "Economic Survey 2025-263030as life expectancy, the infant mortality rate (IMR), and the gross enrolment ratio (GER),",
+            "have shown steady improvement, indicating gains in overall health outcomes, maternal",
+            "and child health, access to education, and human capital formation. The convergence",
+            "of improved human resource development outcomes and poverty alleviation highlights",
+            "the role of inclusive growth, sustained social sector investments, and welfare measures",
+            "in enhancing overall welfare and strengthening the economy’s long-term resilience."
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.42. The FY26 was an unusually challenging year for the economy on the external front.",
+          "summary": "",
+          "content": [
+            "Heightened uncertainty in global trade and the imposition of high, penal tariffs created",
+            "stress for manufacturers, particularly exporters, and affected business confidence.",
+            "The government responded by using this crisis as an opportunity to push through key",
+            "measures such as GST rationalisation, faster progress on deregulation, and further",
+            "simplification of compliance requirements across sectors. FY27 is therefore expected to",
+            "be a year of adjustment, as firms and households adapt to these changes, with domestic",
+            "demand and investment gaining strength. That said, it must be acknowledged that the",
+            "external environment remains uncertain, which shapes the overall outlook."
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.43. The outlook for the global economy remains dim over the medium-term, with",
+          "summary": "",
+          "content": [
+            "downside risks dominating. At the global level, growth is expected to remain modest,",
+            "leading to broadly stable commodity price trends. Inflation across economies has",
+            "trended downward, and monetary policies are therefore expected to become more",
+            "accommodative and supportive of growth. However, certain key risks persist. If the AI",
+            "boom fails to deliver the anticipated productivity gains, it could trigger a correction in",
+            "overly optimistic asset valuations, with the potential for broader financial contagion.",
+            "Additionally, a protraction of trade conflicts would weigh on investment and further",
+            "weaken the global growth outlook. These forces collectively suggest that downside risks",
+            "to global growth remain prominent, although a fragile stability holds for now."
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.44. For India, these global conditions translate into external uncertainties rather",
+          "summary": "",
+          "content": [
+            "than immediate macroeconomic stress. Slower growth in key trading partners, tariff-",
+            "induced disruptions to trade and volatility in capital flows could intermittently weigh",
+            "on exports and investor sentiment. At the same time, ongoing trade negotiations with",
+            "the United States are expected to conclude during the year, which could help reduce",
+            "uncertainty on the external front. While these risks remain manageable, they reinforce",
+            "the importance of maintaining adequate buffers and policy credibility."
+          ]
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.45. Against this backdrop, the domestic economy remains on a stable footing.",
+          "summary": "",
+          "content": [
+            "Inflation has moderated to historically low levels, although some firming is expected to",
+            "occur going forward. Balance sheets across households, firms and banks are healthier,",
+            "and public investment continues to support activity. Consumption demand remains",
+            "State of the Economy3131resilient, and private investment intentions are improving. These conditions provide",
+            "resilience against external shocks and support the continuation of growth momentum.",
+            "The forthcoming rebasing of the CPI series in the coming year will also have implications",
+            "for inflation assessment and warrant careful interpretation of price dynamics."
+          ]
+        },
+        {
+          "type": "box",
+          "title": "Box I.4: Reassessing India’s Medium-Term Potential Growth",
+          "content": "📋 Detailed SummaryTopic:Reassessing India's Medium-Term Potential GrowthThis box presents the rationale and evidence for revising India's medium-term potential growth rate upward from 6.5% to 7.0%.Previous Assessment (2022-23):Potential growth estimated at 6.5%Conditional possibility of reaching 7-8% with sustained reformsAnticipated weaker global tailwinds, particularly from exportsNoted that domestic reforms and public investment could lift growth capacityCurrent Reassessment (2025-26):New Estimate:Potential growth now at 7.0%, up from 6.5%Realization:The conditional possibility of higher growth is now being realizedEvidence Supporting Higher Potential:Infrastructure Expansion:Airport network doubled over past decadeRapid growth in freight movement through inland waterwaysEasing logistics constraints raising economy-wide efficiencySupply-Side Strengthening:Subdued core inflation (excluding gold/silver) despite demand strengthIndicates improved supply conditions and productive capacityBetter logistics reducing bottlenecksRegulatory Reforms:Sustained state-level deregulation effortsSMEs expanding and integrating into formal value chainsElevating medium-term growth potentialInvestment Climate:Record public investment sustained over multiple yearsCrowding in private investmentCapital formation supporting capacity expansionImplications:India can sustain 7% real growth in medium termHigher potential reduces inflationary pressures from growthCreates fiscal space through higher revenue generationImproves external sustainability through enhanced export capacityConclusion:The upward revision reflects India's successful structural transformation over the past three years, with reforms and investments translating into sustainably higher growth capacity."
+        },
+        {
+          "type": "collapsible",
+          "number": "",
+          "title": "1.46. Importantly, the cumulative impact of policy reforms over recent years appears",
+          "summary": "",
+          "content": [
+            "to have lifted the economy’s medium-term growth potential closer to 7 per cent (details",
+            "in Box I.4). With domestic drivers playing a dominant role and macroeconomic stability",
+            "well anchored, the balance of risks around growth remains broadly even. Taking these",
+            "considerations together, the Economic Survey projects real GDP growth in FY27 in the",
+            "range of 6.8 to 7.2 per cent. The outlook, therefore, is one of steady growth amid global",
+            "been sustained rather than episodic. Second, it has been accompanied by logistics,",
+            "digital and regulatory reforms that improve the productivity of capital.",
+            "International evidence suggests that sustained public infrastructure investment can",
+            "increase potential output by attracting private investment, particularly when financial",
+            "sector balance sheets are healthy (IMF, 202032; World Bank, 202333). Consistent with",
+            "this, private investment intentions have shown signs of revival, as reflected in capacity",
+            "utilisation surveys and new project announcements.34",
+            "31  Between FY20 and FY25, the share of capital spending in total central government expenditure increased from",
+            "about 12.5% to 22.6% (PA), while effective capex as a share of GDP rose from roughly 2.6% to 4.0%. In absolute",
+            "numbers, the centre’s capex outlay has more than tripled — from around ₹3.4 lakh crore to ₹10.5 lakh crore (PA)",
+            "32  International Monetary Fund. (2020). Public Investment for the Recovery. Fiscal Monitor, October 2020.",
+            "33  World Bank. (2023). Global Economic Prospects: January 2023. Washington, DC. (https://tinyurl.com/"
+          ]
+        }
+      ]
+    }
+  ]
+}
